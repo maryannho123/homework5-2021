@@ -109,6 +109,8 @@ nav a:hover {
 /* Remainder of requirements here: */
 
 header{
+  background-repeat: no-repeat; /* Parallax effect */
+  background-image: url("../images/header.jpg"); 
   background-attachment: fixed; /* Parallax effect */
   background-position: center; /* Parallax effect */
   background-size: cover; /* Parallax effect */
@@ -179,9 +181,7 @@ header{
   padding: 30px;
 
   /* Your code here */
-  justify-self: center;
-  
-
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 800px){
